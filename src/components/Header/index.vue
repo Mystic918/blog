@@ -3,7 +3,7 @@
    <el-row class="nav-wrap">
       <el-col :xs="2" :sm="2" :md="1" class="hidden-md-and-up drawer" ><div class="el-icon-s-unfold" @click="DrawerOpen"></div></el-col>
       <el-col :xs="20" :sm="20" :md="4" :lg="3" :xl="1" class="title">个人博客&nbsp;|&nbsp;技术栈</el-col>
-      <el-col :xs="20" :sm="20" :md="17" :lg="17" :xl="20"  class="hidden-sm-and-down">
+      <el-col :xs="20" :sm="20" :md="19" :lg="19" :xl="22"  class="hidden-sm-and-down">
          <el-menu :default-active="activeIndex" 
          background-color='transparent' 
          active-text-color='#00c1de' 
@@ -18,7 +18,7 @@
                <el-menu-item index="5"><a target="_blank">留言</a></el-menu-item>
             </el-menu>
       </el-col>
-      <el-col :xs="2" :sm="2" :md="2" :lg="2" :xl="2"><div class="el-icon-search search-button"></div></el-col>
+      <el-col :xs="2" :sm="2" :md="1" :lg="1" :xl="1"><div class="el-icon-search search-button"></div></el-col>
 </el-row>
 </div>
 </template>
